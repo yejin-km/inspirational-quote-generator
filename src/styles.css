@@ -1,0 +1,67 @@
+body {
+  background-image: url("/images/nature-background1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+a {
+  color: lightseagreen;
+}
+
+.input-box {
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.submit-button {
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+}
+
+.quote {
+  background-color: white;
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+}
