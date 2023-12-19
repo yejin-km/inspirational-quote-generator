@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Inspirational Quotes Generator</title>
   </head>
   <body>
     <h1>Inspirational Quotes Generator</h1>
 
     <main>
-      <form>
+      <form id="quote-form">
         <input
           class="input-box"
           type="text"
@@ -21,7 +22,7 @@
         />
         <input class="submit-button" type="submit" />
       </form>
-      <div class="quote"></div>
+      <div class="quote" id="quote"></div>
     </main>
 
     <footer>
