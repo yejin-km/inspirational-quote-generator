@@ -16,10 +16,19 @@ function generateQuote(event) {
   let context =
     "You are great at inspirational quotes and love to inspire. Generate a short inspirational quote in basic html <p>your quote</p>. follow the user instructions.";
   let prompt = `user instructions: generate an inspirational quote on ${userInput.value}`;
-
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  console.log(userInput.value);
+  let quoteElement = document.querySelector("#quote");
+  quoteElement.classList.remove("hidden");
+
+  //displays when quote is loading
+  new Typewriter("#quote", {
+    strings: "⏳. . . . . .",
+    autoStart: true,
+    loop: true,
+    delay: 70,
+    cursor: "",
+  });
 
   axios.get(apiUrl).then(displayQuote);
 }

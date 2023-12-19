@@ -25,6 +25,11 @@ form {
   opacity: 0.8;
 }
 
+small {
+  padding: 20px;
+  color: gray;
+}
+
 footer {
   text-align: center;
   padding: 20px;
@@ -64,4 +69,8 @@ a {
   border-radius: 10px;
   margin-top: 30px;
   font-size: 18px;
+}
+
+.hidden {
+  display: none;
 }
